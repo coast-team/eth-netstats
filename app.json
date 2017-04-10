@@ -1,0 +1,17 @@
+[
+  {
+    "name"        : "ethstats",
+    "script"      : "app.js",
+    "log_date_format"   : "YYYY-MM-DD HH:mm Z",
+    "merge_logs"    : false,
+    "watch"       : false,
+    "exec_interpreter"  : "node",
+    "exec_mode"     : "fork_mode",
+    "env":
+    {
+      "NODE_ENV"    : "development",
+      "PORT"           : 3000,
+      "WS_SECRET"     : "qwerty"
+    }
+  }
+]

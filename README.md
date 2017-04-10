@@ -19,7 +19,7 @@ Clone the repository and install the dependencies
 git clone https://github.com/cubedro/eth-netstats
 cd eth-netstats
 npm install
-sudo npm install -g grunt-cli
+sudo npm install -g grunt-cli pm2
 ```
 
 ##Build the resources
@@ -44,7 +44,7 @@ grunt all
 ##Run
 
 ```bash
-npm start
+pm2 start app.json
 ```
 
 see the interface at http://localhost:3000
