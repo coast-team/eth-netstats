@@ -7,7 +7,7 @@ This is a visual interface for tracking ethereum network status. It uses WebSock
 ![Screenshot](https://raw.githubusercontent.com/cubedro/eth-netstats/master/src/images/screenshot.jpg?v=0.0.6 "Screenshot")
 
 ## Prerequisite
-* node
+* node (same major version than for eth-net-intelligence-api !)
 * npm
 
 ## Installation
